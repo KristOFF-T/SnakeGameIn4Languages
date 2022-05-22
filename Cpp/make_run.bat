@@ -1,1 +1,0 @@
-makeExe.bat && main.exe
