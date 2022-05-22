@@ -1,4 +1,4 @@
-# Snake Game In 4 Programming Languages:
+# Snake Game In 4 Languages:
 - JavaScript
 - C++
 - Python
