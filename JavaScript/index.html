@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake game</title>
+
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: blue;
+        }
+        canvas{
+            box-shadow: black 20px 10px 50px;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: black;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            top: 60px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Snake</h1>
+    <canvas id="game" width="400" height="400"></canvas>
+    <div id="d1" style="position: absolute; top: 520px;">
+        <canvas id="bottom" width="400" height="40"></canvas>
+    </div>
+    <div id="bd" style="position: absolute; top: 600px;">
+        <button id="b_1" onclick="chd('up')" style="top: 0px;"></button>
+        <button id="b_2" onclick="chd('down')"></button>
+        <button id="b_3" onclick="chd('left')" style="left: -60px;"></button>
+        <button id="b_4" onclick="chd('right')" style="left: 60px;"></button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
